@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MSA3D — Assistive UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+
+  <div class="center-panel" aria-live="polite">
+    <div>
+      <div class="clock" id="clock">--:--:--</div>
+      <div class="date" id="date">--</div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button id="voiceBtn">🎤 Toggle Voice</button>
+    <span id="status" class="status">WS: disconnected</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
